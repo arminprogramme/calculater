@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top,#4343ff,#000000);
+    font-family: sans-serif;
+}
+header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    padding: 38px 30px;
+}
+header ul{
+    display: inline-flex;
+    list-style: none;
+}
+header ul li{
+    line-height: 97px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.bts {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.bts button{
+    padding: 15px  30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-log{
+    background: none;
+    color: #fff;
+    margin-right: 10px;
+}
+main {
+    color: #fff;
+    margin-top: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 80px;
+}
+main p{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
+}
+main .btm{
+    margin-left: 42%;
+    margin-top: 2%;
+}
+main button{
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-main{
+    margin-right: 10px;
+    background-color: #fff;
+    color: #000038;
+}
+.btn-main2{
+    background: none;
+    color: #fff;
+    border: 1px solid white;
+}
